@@ -3,19 +3,22 @@
   <head>
     <meta charset="utf-8">
     <title>Blend Mode</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="assets/dist/css/styles.css">
   </head>
   <body>
     <main>
       <div class="blend-mode-container js--blend-mode-container">
-        <img src="assets/img1.jpg" alt="">
+        <img src="assets/src/images/img1.jpg" alt="">
+		<h1>Hello, world!</h1>
         <!-- LAYERS -->
         <!-- LAYERS: LEFT -->
-        <div class="blend-mode-layer mode--overlay bg--blue align--left"></div>
+        <div class="blend-mode-layer mode--color-burn bg--purple align--left"></div>
         <!-- LAYERS: RIGHT -->
-        <div class="blend-mode-layer mode--multiply bg--green align--right"></div>
+        <div class="blend-mode-layer mode--color-dodge bg--red align--right opacity--5"></div>
+		<!-- LAYERS: ALL -->
+		<div class="blend-mode-layer mode--lighten bg--yellow opacity--2"></div>
       </div>
     </main>
-    <script src="js/main.js"></script>
+    <script src="assets/src/scripts/main.js"></script>
   </body>
 </html>
